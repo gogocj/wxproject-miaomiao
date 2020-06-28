@@ -1,0 +1,9 @@
+/* miniprogram/pages/editUserInfo/editUserInfo.wxss */
+.editUserInfo{margin-top: 40rpx;}
+.editUserInfo-list-item{
+  /* 这里可以直接把user.wxss中的样式复印过来了 */
+  height: 50rpx;border-bottom:1px #b4b5b6 dashed;
+padding: 10rpx; display: flex;align-items: center;justify-content: space-between;
+}
+/* 一般的字体默认都是16px的，所以就设置为12px的 */
+.editUserInfo-list-tips{font-size: 12px;color: red;}

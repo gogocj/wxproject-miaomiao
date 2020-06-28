@@ -1,0 +1,11 @@
+
+var wordSplit = function(word){
+  // 如果大于四位的话，就截取前面的四位
+  if( word.length > 4){
+    word = word.substring(0,4) + '...';
+  }
+  return word;
+};
+
+module.exports.wordSplit = wordSplit;
+// 这个就是提供了一个对外访问的接口了

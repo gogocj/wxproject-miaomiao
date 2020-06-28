@@ -1,0 +1,6 @@
+<!--miniprogram/pages/editUserInfo/location/location.wxml-->
+<view>
+  <text>开启共享位置：</text>
+  <!-- checked里面的值如果是true的话，这个按钮现在就是一个开启的状态了 -->
+   <switch checked="{{isLocation}}" bindchange="switch1Change"/>
+</view>

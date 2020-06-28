@@ -1,0 +1,44 @@
+/* miniprogram/pages/index/index.wxss */
+.index-swiper{margin: 5rpx 20rpx 5px;
+height: 300rpx;
+border-radius: 10rpx;
+ overflow: hidden;
+ margin-top: 100rpx;} 
+.index-swiper image{
+  width: 100%;
+  border-radius: 10rpx;
+  overflow: hidden;
+} 
+.index-tab{
+  display:flex;
+}
+.index-tab view{
+  flex:1;
+  text-align: center;
+  padding: 10rpx;
+  margin: 10rpx;
+}
+.index-tab view.active{
+  border-bottom:1px red solid;
+  color: red;
+}
+.index-list{display: flex;
+            flex-wrap: wrap;
+            /* //z自动转行} */
+            color: hotpink;
+            /* 给这个列表里面的全部文本都设置我为粉色的 */
+}
+.index-list-item{width: 50%;margin: 10rpx 0;}
+.index-list-item image{
+  width: 90%;
+  height: 250rpx;
+  margin: 0 auto;
+display: block;
+  }
+.index-list-text{
+  width: 90%;
+  /* 让用户昵称和点赞部分分开在两边即可了 */
+  display:flex;
+  margin: 0 auto;
+  justify-content:space-between;
+}
